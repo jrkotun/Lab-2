@@ -1,11 +1,10 @@
 #include "Keyboard.h"
 #include <iostream>
 
-//trivial comment
-//trivial comment 2
-//trivial comment 3
+
 Keyboard::Keyboard()
 {
+    int correct;
 }
 
 Keyboard::~Keyboard()
