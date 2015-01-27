@@ -2,7 +2,7 @@
 #include <iostream>
 
 //trivial comment
-//trivial comment 2
+//blah
 Keyboard::Keyboard()
 {
 }
