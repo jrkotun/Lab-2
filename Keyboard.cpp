@@ -39,7 +39,7 @@ int Keyboard::getValidatedInt(string prompt, int min, int max)
 
    return validated;
 }
-
+//Different Trivial Comment
 double Keyboard::readDouble(string prompt)
 {
    cout << prompt;
