@@ -5,6 +5,7 @@
 //blah
 Keyboard::Keyboard()
 {
+    int correct;
 }
 
 Keyboard::~Keyboard()
