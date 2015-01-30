@@ -8,16 +8,15 @@ using namespace std;
 
 class ReadFile
 {
-   private:
+    public:
       ifstream input_file;
       bool _eof;
       bool closed;
-   public:
-      ReadFile(const char* file_name); //a "constructor"
-      ~ReadFile();   //a "destructor"
-      String* readLine();
-      bool eof();
-      void close();
+      ReadFile* createReadFile(const char* file_name);
+      String* readLine(ReadFile* rf);
+      void destroyReadFile(ReadFile* rf);
+      bool eof(ReadFile* rf);
+      void close(ReadFile* rf);
 };
 
 #endif
